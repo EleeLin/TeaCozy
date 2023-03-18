@@ -1,0 +1,133 @@
+.page {
+    background-color: black;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+}
+
+header {
+    display: fixed;
+    height: 69px;
+}
+
+.logo {
+    display: inline-block;
+    height: 50px;
+    width: 200px;
+    margin: 10px;
+}
+
+.menu {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    float: right;
+}
+
+ul li {
+    display: inline-block;
+}
+
+.mission {
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*nbh4hp*_ga*ODg5MjQ4MjA3MS4xNjU1NjgzNjQw*_ga_3LRZM6TM9L*MTY2NTExNDA1OC4xOTcuMC4xNjY1MTE0NzI1LjYwLjAuMA..');
+    height: 700px;
+    width: 1200px;
+    position: absolute;
+    left: 8%;
+}
+
+.mission_text {
+    text-align: center;
+    vertical-align: middle;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    width: 1200px;
+}
+
+.month {
+    position: absolute;
+    width: 1000px;
+    top: 800px;
+    left: 16%;
+}
+
+.month_info {
+    width: 1000px;
+    text-align: center;
+}
+
+.month_pic {
+    position: relative;
+    left: 3%;
+}
+
+.pic_img {
+    width: 300px;
+    height: 200px;
+}
+
+.pic, .pic4, .pic5 {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.pic4, .pic5 {
+    position: relative;
+    left: 15%;
+}
+
+.pic h4, .pic4 h4, .pic5 h4 {
+    text-align: center;
+}
+
+.location {
+    background-image: url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*72ac3n*_ga*ODg5MjQ4MjA3MS4xNjU1NjgzNjQw*_ga_3LRZM6TM9L*MTY2NTI0ODA4NS4xOTguMS4xNjY1MjQ4MTYzLjYwLjAuMA..');
+    height: 600px;
+    width: 1200px;
+    position: absolute;
+    top: 1550px;
+    left: 8%;
+}
+
+.location h2 {
+    text-align: center;
+    position: relative;
+    top: 10%;
+}
+
+.place {
+    height: 280px;
+    width:  300px;
+    margin: 20px;
+    display: inline-block;
+    background-color: black;
+    text-align: center;
+}
+
+.places {
+    position: relative;
+    top: 7%;
+    left: 7%;
+}
+
+.contact {
+    width: 1200px;
+    height: 200px;
+    position: absolute;
+    top: 2200px;
+}
+
+.contact_info {
+    left: 8%;
+    position: relative;
+    text-align: center;
+}
+
+#copy {
+    text-align: left;
+    position: absolute;
+    top: 2400px;
+}
